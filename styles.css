@@ -1,0 +1,250 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #FFEBB2;
+    
+}
+
+header {
+    background-color: #8644A2;
+    width: 100%;
+    margin: 0px;
+    padding: 4px;
+    text-align: center;
+
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+    padding: 5px;
+}
+
+
+/* main section index page */
+main .welcome{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+
+}
+main .welcome .welcome-part{
+    width: 500px;
+    margin: auto;
+}
+main .welcome .welcome-part a {
+    padding: 10px;
+    color: #FEFFDE;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #D862BC;
+}
+main .welcome img {
+    width: 500px;
+    height: 400px;
+}
+ /* favorite section index page */
+main .favorite{
+    background-color: #E59BE9;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+main input[type=search]{
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px white solid;
+}
+main button{
+    padding: 10px;
+    margin: 8px;
+    color: white;
+    width: 150px;
+    border-radius: 10%;
+    cursor: pointer;
+    border: 1px #f8f7f6 solid;
+    background-color: transparent;
+    
+}
+
+/* recipeDay section index page */
+main .RecipeDay {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+main h1{
+    text-align: center;
+}
+main .RecipeDay img {
+    width: 300px;
+    height: 300px;
+    padding: 3px;
+    border-radius: 10%;
+}
+main .RecipeDay .recipes{
+    width: 300px;
+    margin: auto;
+    
+}
+main .RecipeDay a {
+    padding: 10px;
+    color: #FEFFDE;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #D862BC;
+}
+
+
+/* Recipe Details Lists */
+.RecipeOfDay h1 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.RecipeOfDay table {
+    margin: auto;
+}
+
+.RecipeOfDay table td {
+    padding: 20px;
+}
+
+.RecipeOfDay h2,
+h3 {
+    color: #A0153E;
+}
+
+.RecipeOfDay img {
+    width: 500px;
+    height: 450px;
+    padding: 10px;
+    border: 10px #A0153E solid;
+}
+
+.Instructions {
+    margin: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+ /* add recipe.html css */
+.add-recipe{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+.add-recipe h1{
+    text-align: center;
+}
+.add-recipe img{
+    width: 400px;
+}
+form label{
+    display: block;
+    padding: 10px;
+}
+form input{
+    width: 500px;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px white solid;
+    background-color: #0c0c0c1f;
+
+}
+form textarea{
+    width: 500px;
+    border: none;
+    border-bottom: 2px white solid;
+    background-color: #0c0c0c1f;
+}
+form select{
+    width: 500px;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px white solid;
+    background-color: #0c0c0c1f;
+}
+ input[type=file]{
+    width: 500px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 110px;
+    border: none;
+    background-color: #D862BC;
+}
+ input[type=submit]{
+    width: 500px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 110px;
+    border: none;
+    background-color: #D862BC;
+    cursor: pointer;
+}
+
+
+
+/* recipeList css styles */
+.filterCategory{
+    text-align: center;
+    margin-top: 3%;
+
+}
+.filterCategory select{
+    width: 300px;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    background-color: #0c0c0c1f;
+}
+.recipeList{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.recipeList .recipes{
+    width: 300px;
+    margin: auto;
+    padding-top:6%;
+    margin-bottom: 4%;
+}
+.recipeList img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+}
+.recipeList a {
+    padding: 10px;
+    color: #FEFFDE;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #D862BC;
+}
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    background-color: #8644A2;
+    margin: 0px;
+    padding: 4px;
+}

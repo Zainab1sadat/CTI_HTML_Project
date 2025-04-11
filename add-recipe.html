@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afghan Food Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- header section -->
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="add-recipe.html">Add Recipe</a></li>
+            <li><a href="recipe-list.html">Recipe list</a></li>
+        </ul>
+    </header>
+    <!-- main section form start -->
+
+    <main class="add-recipe">
+        <section class="addrecipe">
+            <img src="mix.png" alt="image">
+        </section>
+
+        <section class="addrecipe">
+            <h1>Add Your Recipe</h1>
+            <form action="#">
+                <label for="Recipename">Recipe name</label>
+                <input type="text" name="Recipename" id="Recipename"placeholder="e.g. Pulao, Kabbab etc " required>
+                <label for="Ingredients">Ingredients</label>
+                <textarea name="Ingredients" id="Ingredients" placeholder="e.g. 2 cups of rice, 1 onion..." required></textarea>
+                <label for="CookingInstructions">Cooking Instructions</label>
+                <textarea name="CookingInstructions" id="CookingInstructions" placeholder="e.g. mix ingredients, backe for few minutes..." required></textarea>
+                <label for="img">Image of the Dish</label>
+                <input type="file" name="img" id="img">
+                <label for="RecipeCategory">Recipe Category</label>
+                <select name="RecipeCategory" id="RecipeCategory" required>
+                    <option value="">choose Category</option>
+                    <option value="Desserts">Desserts</option>
+                    <option value="Appetizers">Appetizers</option>
+                    <option value="Appetizers">Main Course</option>
+                    <option value="Drink">Drink</option>
+                </select>
+            </form>
+            <input type="submit" value="Add Recipe">
+        </section>
+
+        <section class="addrecipe">
+            <img src="tomato.png" alt="tomato">
+        </section>
+    </main>
+
+    <footer>
+        <p>Zainab Sadat 2025 All rights reserved</p>
+    </footer>
+
+</body>
+</html>
